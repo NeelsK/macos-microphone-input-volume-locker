@@ -1,6 +1,6 @@
 # 🎙️ Mac Mic Lock - Lock Microphone Input Volume
 
-A **lightweight shell tool for macOS** that **automatically keeps your microphone input volume fixed**—even when apps like **Microsoft Teams** or **Zoom** try to change it without providing an option to disable this behavior 😡.
+You’re in a Teams or Zoom call on your Mac, and suddenly your microphone input volume changes by itself—making you too quiet or too loud, with no way to stop it? Sounds familiar? Then check out this **lightweight shell tool for macOS** that **automatically keeps your microphone input volume fixed**—even when apps like **Microsoft Teams** or **Zoom** try to change it without providing an option to disable this behavior 😡.
 
 This background script **continuously monitors your mic input level** and instantly resets it to your preferred setting, ensuring consistent audio quality for calls, recordings, and streaming. 
 
