@@ -61,6 +61,10 @@ TARGET_VOLUME=85  # Set desired input level (0-100)
 ./register-daemon.sh
 ```
 
+## ⚠️ Performance Warning
+
+A very low sleep interval (e.g., less than 2-3 seconds) in the monitoring script can lead to increased CPU usage by the macOS process `/usr/sbin/coreaudiod`. This may be visible in the Activity Monitor as higher CPU consumption. If you notice this, consider increasing the sleep value in `mac-mic-control.sh` to reduce system load.
+
 ## 📁 Project Structure
 
 ```

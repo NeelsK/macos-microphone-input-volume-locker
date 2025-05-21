@@ -12,5 +12,5 @@ while true; do
     osascript -e "set volume input volume $TARGET_VOLUME"
     echo "Volume reset to $TARGET_VOLUME% at $(date)"
   fi
-  sleep 0.5
+  sleep 3
 done
