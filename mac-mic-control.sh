@@ -4,7 +4,7 @@
 # Maintains a constant microphone input volume level
 # by checking and resetting it every 0.5 seconds
 
-TARGET_VOLUME=85
+TARGET_VOLUME=5
 
 while true; do
   CURRENT_VOLUME=$(osascript -e "input volume of (get volume settings)")
