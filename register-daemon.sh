@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-SCRIPT_SRC="$SCRIPT_DIR/mac-mic-control.sh"
+SCRIPT_SRC="/usr/local/bin/mac-mic-control"
 PLIST_TEMPLATE="$SCRIPT_DIR/com.user.miclock.plist"
 PLIST_TARGET="$HOME/Library/LaunchAgents/com.user.miclock.plist"
 
